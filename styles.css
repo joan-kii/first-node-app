@@ -1,0 +1,15 @@
+h1,
+p {
+  margin: 2em auto;
+  text-align: center;
+  color: darkgray;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: whitegray;
+}
