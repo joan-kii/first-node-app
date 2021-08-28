@@ -8,28 +8,28 @@ const server = http.createServer((req, res) => {
     fs.readFile('./index.html', (err, data) => {
       if (err) throw new Error (err);
       res.statusCode = 200;
-      res. setHeader = ('Content-Type', 'text/html');
+      res.setHeader = ('Content-Type', 'text/html');
       res.end(data);
     })
   } else if (req.url === '/about') {
     fs.readFile('./about.html', (err, data) => {
       if (err) throw new Error (err);
       res.statusCode = 200;
-      res. setHeader = ('Content-Type', 'text/html');
+      res.setHeader = ('Content-Type', 'text/html');
       res.end(data);
     })
   } else if (req.url === '/contact-me') {
     fs.readFile('./contact-me.html', (err, data) => {
       if (err) throw new Error (err);
       res.statusCode = 200;
-      res. setHeader = ('Content-Type', 'text/html');
+      res.setHeader = ('Content-Type', 'text/html');
       res.end(data);
     })
   } else {
     fs.readFile('./404.html', (err, data) => {
       if (err) throw new Error (err);
       res.statusCode = 200;
-      res. setHeader = ('Content-Type', 'text/html');
+      res.setHeader = ('Content-Type', 'text/html');
       res.end(data);
     })
   }

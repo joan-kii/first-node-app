@@ -5,6 +5,7 @@ p {
   color: darkgray;
 }
 
+header,
 nav {
   display: flex;
 }
@@ -12,4 +13,9 @@ nav {
 a {
   text-decoration: none;
   color: whitegray;
+}
+
+a, 
+p {
+  font-size: 1rem;
 }
