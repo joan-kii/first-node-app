@@ -1,2 +1,1 @@
-Simple site created with Node.js.
-You can take a look [here](https://first-node-app.joankii.repl.co).
+# The Odin Project First Node App Exercise with Express.
